@@ -1,0 +1,146 @@
+::-webkit-scrollbar{
+    display: none;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.container img{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    top: 0;
+    left: 0;    
+}
+.text-box{
+    position: absolute;
+    top: 7vh;
+    left: 4vw;
+    width: auto;
+}
+
+@keyframes showText {
+    to{
+        color: black;
+    }
+}
+
+@keyframes showText1 {
+    to{
+        color: rgb(126,68,244);
+    }
+}
+
+
+@keyframes revealText{
+    80%{
+        width: 100%;
+        left: 0%;
+    }
+    100%{
+        width: 0%;
+        left: 100%;
+    }
+}
+
+span{
+    color: rgb(126,68,244);
+}
+
+.greetings{
+    font-size: 3vw;
+    position: relative;
+    display: inline-block;
+    color: transparent;
+    animation: showText forwards;
+    animation-delay: 1000ms;
+}
+
+.greetings-bg{
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: rgb(157, 112, 247);
+    left: 0;
+
+    animation: revealText 1200ms ease-out ;
+}
+
+.Name{
+    font-size: 3vw;
+    position: relative;
+    display: inline-block;
+    color: transparent;
+    animation: showText forwards;
+    animation-delay: 2200ms;
+
+}
+
+.Name-bg{
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: rgb(157, 112, 247);
+    left: 0;
+
+    animation: revealText 1200ms ease-out ;
+    animation-delay: 1200ms;
+}
+
+.tagline{
+    font-size: 3vw;
+    position: relative;
+    display: inline-block;
+    color: transparent;
+    animation: showText1 forwards;
+    animation-delay: 3400ms;
+}
+
+.tagline-bg{
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: rgb(157, 112, 247);
+    left: 0;
+
+    animation: revealText 1200ms ease-out ;
+    animation-delay: 2400ms;
+
+}
+
+.about-me-nav-sec{
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+    top: 33vh;
+    left: 4vw;
+}
+
+.about-me-nav-sec h3{
+    font-size: 1.5vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+i{
+    font-size:3vh;
+}
+
+a{
+    font-weight: 800;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-decoration: underline;
+    font-weight: 1000;
+    color: rgb(85,26,139);
+}
+
+
