@@ -1,101 +1,87 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>projects</title>
-    <link rel="stylesheet" href="projects.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>All Projects | Swathi Meghana</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <div class="nav">
-        <h2><span>S</span>WATHI <span>M</span>EGHANA <span>K</span> <span>R</span></h2>
-        <a href="index.html"><h2>HOME</h2></a>
+
+<!-- Clean Navbar -->
+<header class="navbar">
+  <div class="nav-left"><a href="index.html">Home</a></div>
+</header>
+
+<section class="section projects-section">
+  <h2 data-aos="fade-up">Full Project Showcase</h2>
+  <p class="section-sub" data-aos="fade-up">Explore everything I've worked on across Web, Mobile, AI/ML, and IoT domains</p>
+
+  <div class="project-grid">
+
+    <div class="project-card" data-aos="fade-up">
+      <h4><i class="bi bi-shield-lock-fill"></i> Secure EHR Audit Logging System</h4>
+      <p>Built a full-stack Flask web app for doctors, patients, and auditors with secure, role-based access. Implemented cryptographically secure audit logging using RSA, SHA-256, and AES encryption for tamper-proof data storage.</p>
+      <p><strong>Tech Stack:</strong> Python, Flask, HTML, CSS, Bootstrap, RSA, AES, Git, JSON</p>
+      <a href="https://github.com/Swathi-KR/EHR-Audit-System" target="_blank">GitHub →</a>
     </div>
-    <div class="container">
-        <h1>PROJECT<span style="color: rgb(157, 112, 247);">S</span></h1>
-        <div class="project-list">
-            <a href="https://github.com/Swathi-KR/Weather_app_deployed_on_GCP?tab=readme-ov-file"><div class="project-item">
-                <img src="./assets/weather.jpeg">
-                <div  class="title-content"> 
-                    <h2>WEATHER FORECAST WEB APPLICATION</h2>
-                    <p>•	Built a weather app with Flask, RESTful API calls (Tomorrow.io, Google Geocoding, IPinfo.io), and GCP deployment.<br>•	Rebuilt it as a MEAN app with Angular, NodeJS, and, MongoDB Atlas. Used Highcharts for data visualization.<br>•	 Implemented responsive web design.</p>
-                </div>
-           </div></a>
-           <a href="https://drive.google.com/file/d/1AxT9mk6VQmhGXtEim6ZX_Lszz2CLoraI/view"><div class="project-item">
-                <img src="./assets/ios.png">
-                <div  class="title-content"> 
-                <h2>WEATHER FORECAST iOS APP</h2>
-                <p>•	Built an interactive iOS app using Swift and Xcode, integrating real-time weather data from external APIs.<br>•	Enhanced UX with intuitive tabbed navigation, animations, and interactive weather views, following Apple’s Human Interface Guidelines for modern iOS applications.<br>•	 Used User Defaults for data persistence.</p>
-                </div>
-            </div></a>
-            <a href="https://github.com/Swathi-KR/In-vehicle-Infotainment-System-Website"><div class="project-item">
-                <img src="./assets/projects3.jpeg">
-                <div  class="title-content"> 
-                    <h2>FRONT-END DEVELOPER INTERN</h2>
-                    <p>•	I Worked as a Front-end website developer intern for 4 weeks at CoachEd, Bengaluru.<br>
-                        •	We built a website on Visual Studio Code using HTML,CSS, ReactJS, and JavaScript. Wherein we built an In-Vehicle Infotainment System and the features
-                        that I added to the application were
-                        'Maps', 'Radio' and 'Bluetooth'<br>
-                    </p>
-                </div>
-            </div></a>
-           <a href="https://github.com/Swathi-KR/Criminal-Record-Database-Management-System"><div class="project-item">
-                <img src="./assets/projects3.jpeg">
-                <div  class="title-content"> 
-                    <h2>WEB DEVELOPMENT</h2>
-                    <p>•	The purpose of the project is to build an application program to reduce the manual work for managing the information about crime between the court and police.<br>
-                        •	It provides a feasible way to store,update and retrieve the criminal records in the database
-                    </p>
-                </div>
-            </div></a>
-        </div>
-        <div class="project-list">
-            <a href="https://github.com/Swathi-KR/Medicine-Reminder-App"><div class="project-item">
-                <img src="./assets/projects4.png">
-                <div  class="title-content"> 
-                    <h2>ANDROID DEVELOPMENT</h2>
-                    <p>•	An Android Mobile Application developed to set a voice alarm to remind patients to take their tablets on time.<br>
-                        •	Included features such as adding the name, type, and dosage of the medicine.
-                    </p>
-                </div>
-            </div></a>
-            <a href="https://drive.google.com/drive/folders/1CCuBcEGSALxz6uQ7fYVZ8D2UT_-YUA6L?usp=share_link"><div class="project-item">
-                <img src="./assets/projects6.jpg">
-                <div  class="title-content"> 
-                <h2>RESEARCH WORK</h2>
-                <p>•   I have successfully published and presented several research papers, showcasing my dedication to advancing knowledge in the field of computer science.<br>
-                    •   The research papers focuses on the application of AI and machine learning techniques to address and resolve health-related issues.</p>
-                </div>
-            </div></a>
-            <a href="https://github.com/Swathi-KR/Okra-Disease-Detection-and-Prediction"><div class="project-item">
-                <img src="./assets/prjects5.jpeg">
-                <div  class="title-content"> 
-                    <h2>AI/ML-IMAGE PROCESSING</h2>
-                    <p>•    Final year project that aims at developing a system that automatically detects what type of disease a plant is infected with by testing its leaves.<br>
-                        •	Makes use of the Image Processing technique to process the image of the leaves and detect abnormalities like discolorization or distortion in the shape of the leaf.
-                    </p>
-                </div>
-            </div></a>
-        </div>
-        <div class="project-list-last">
-            <a href="https://github.com/Swathi-KR/Automatic-heart-Rate-Sensing-and-Alert-System"><div class="project-item">
-                <img src="./assets/projects1.png">
-                <div  class="title-content"> 
-                    <h2>IOT PROJECT</h2>
-                    <p>• Created a working model of an automatic heart rate sensing and alert system to send an immediate SOS to the nearby hospital alerting them about the medical assistance needed by a person who encounters a heart attack due to rapid and abrupt palpitations of the heart.<br>
-                        • It captures the current location of the patient using the GPS module and sends it to nearby hospital and contacts by a message via GSM module.
-                    </p>
-                </div>
-            </div></a>
-            <a href="https://github.com/Swathi-KR/Breadth-First-Search-using-OpenGL"><div class="project-item">
-                <img src="./assets/projects2.jpg">
-                <div  class="title-content"> 
-                    <h2>COMPUTER GRAPHICS</h2>
-                    <p>•	Demonstrated the working of Breadth First Search using OpenGL API and animations.<br>•	The code computed the path taken by the algorithm to perform the breadth-first search in a tree.<br>•	The pictorial representation makes it easier to understand Breadth First Search algorithm effectively</p>
-                </div>
-           </div></a>
-        </div>
+
+    
+    <div class="project-card" data-aos="fade-up">
+      <h4><i class="bi bi-cloud-sun-fill"></i> Weather Forecast Web App</h4>
+      <p>Full-stack app with Flask + Angular, GCP deployed, APIs from Tomorrow.io, Google Maps, IPinfo.io. Visualized with Highcharts.</p>
+      <a href="https://github.com/Swathi-KR/Weather_app_deployed_on_GCP" target="_blank">GitHub →</a>
     </div>
+
+    <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+      <h4><i class="bi bi-phone"></i> iOS Weather App</h4>
+      <p>Swift app with animations, tabbed navigation, and persistent storage using UserDefaults.</p>
+      <a href="https://drive.google.com/file/d/1AxT9mk6VQmhGXtEim6ZX_Lszz2CLoraI/view" target="_blank">Demo →</a>
+    </div>
+
+    <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+      <h4><i class="bi bi-speedometer2"></i> Infotainment Dashboard</h4>
+      <p>React-based system with integrated maps, radio and Bluetooth during internship at CoachEd.</p>
+      <a href="https://github.com/Swathi-KR/In-vehicle-Infotainment-System-Website" target="_blank">GitHub →</a>
+    </div>
+
+    <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+      <h4><i class="bi bi-file-earmark-text"></i> Research Papers</h4>
+      <p>ML-based health issue detection models published in conferences. Real-world applications of AI/ML.</p>
+      <a href="https://drive.google.com/drive/folders/1CCuBcEGSALxz6uQ7fYVZ8D2UT_-YUA6L?usp=share_link" target="_blank">Papers →</a>
+    </div>
+
+    <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+      <h4><i class="bi bi-bug-fill"></i> Okra Disease Detection</h4>
+      <p>Leaf image classification using CNN to detect infection. Built with OpenCV and TensorFlow.</p>
+      <a href="https://github.com/Swathi-KR/Okra-Disease-Detection-and-Prediction" target="_blank">GitHub →</a>
+    </div>
+
+    <div class="project-card" data-aos="fade-up" data-aos-delay="500">
+      <h4><i class="bi bi-heart-pulse-fill"></i> IoT Heart Rate Alert System</h4>
+      <p>Real-time SOS system with GSM & GPS. Sends alert + coordinates to hospitals via SMS.</p>
+      <a href="https://github.com/Swathi-KR/Automatic-heart-Rate-Sensing-and-Alert-System" target="_blank">GitHub →</a>
+    </div>
+
+    <div class="project-card" data-aos="fade-up" data-aos-delay="600">
+      <h4><i class="bi bi-diagram-3-fill"></i> Visual BFS in OpenGL</h4>
+      <p>Animated breadth-first search tree visualization with C++ and OpenGL for teaching purpose.</p>
+      <a href="https://github.com/Swathi-KR/Breadth-First-Search-using-OpenGL" target="_blank">GitHub →</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© 2025 Swathi Meghana. All rights reserved.</p>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
+
 </body>
 </html>
+
+
