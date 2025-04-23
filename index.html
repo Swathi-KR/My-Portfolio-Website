@@ -1,24 +1,217 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Swathi Meghana K R</title>
-        <link rel="stylesheet" href="main.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/43bbb351f6.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <div class="container">
-            <img src="./assets/finalbackground.png">
-            <div class="text-box">
-                <h1 class="greetings">hello,<span class="greetings-bg"></span></h1><br>
-                <h1 class="Name">I am <span class="Name-bg"></span></h1><br>
-                <h2 class="tagline">Swathi Meghana K R<span class="tagline-bg"></span></h2>
-            </div>
-            <div class="about-me-nav-sec">
-                <h3>Graduate student at the <span style="font-weight: 1000;color: rgb(0, 0, 0);">University of Southern California, Los Angeles</span>, pursuing Masters in Computer Science at Viterbi School of Engineering. I am actively looking for Summer and Fall 2025 internship opportunities, here is my <a href="https://www.linkedin.com/in/swathi-meghana/"><i class="fa-brands fa-linkedin"></i></a>   <a href="https://github.com/Swathi-KR"><i class="fa-brands fa-github"></i></a>.</h3><br>
-                <h3>I've always thought that anyone can succeed if they had the motivation, commitment, and ambition. But for me, it has also been about having faith and confidence, and it is showcased in my <a href="./qualification.html">ACADEMICS</a> .</h3><br>
-                <h3>I'm a work in progress. So far, these are my <a href="./projects.html">ACHIEVEMENTS</a> .</h3>
-            </div>
-        </div>
-    </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Swathi Meghana | Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+        rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;600;700&display=swap"
+        rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/43bbb351f6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- Navbar -->
+<header class="navbar">
+  <div class="nav-left"><a href="#home">Home</a></div>
+  <nav class="nav-right">
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Work Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+    <a href="assets/Resume.pdf" class="resume-btn" target="_blank">Resume</a>
+  </nav>
+</header>
+
+<!-- Hero Section -->
+<section id="home" class="hero gradient-bg">
+  <div class="hero-left" data-aos="fade-right">
+    <h1 class="name-highlight">Swathi Meghana Kolar Rajeev</h1>
+    <h4 class="tagline">Software Engineer • AI/ML Enthusiast • Cloud Explorer</h4>
+
+    <div class="profile-mobile">
+      <img src="assets/images/profile.png" alt="Swathi Profile" class="profile-img circle-highlight"/>
+    </div>
+
+    <p class = "hero-para">
+      I’m a Software Developer and Computer Science graduate student at the University of Southern California,<br>
+      with practical experience building scalable solutions across web, mobile, and AI/ML domains.
+      <br><br>
+      My expertise spans full-stack development, cloud platforms like AWS, GCP, and OCI, and the development<br>
+      of intelligent systems using deep learning. I enjoy working at the crossroads of engineering<br>
+      and innovation, creating performance-driven and user-focused applications.
+      <br><br>
+      I'm deeply passionate about leveraging technology to address real-world problems, and I actively explore<br>
+      cutting-edge trends in Machine Learning and AI to build impactful and future-ready solutions.
+      <br><br>
+      As an <strong>AWS Certified Cloud Practitioner</strong> and <strong>Oracle Certified AI Foundations Associate</strong>,<br>
+      I bring validated expertise in cloud architecture, AI services, and secure deployment best practices — enabling me to design intelligent, resilient systems that drive real-world impact.
+    </p>
+    
+  </div>
+  <div class="hero-right" data-aos="fade-left">
+    <img src="assets/images/profile.png" alt="Swathi Profile" class="profile-img-large circle-highlight"/>
+  </div>
+</section>
+
+<!-- Academic Section -->
+<section class="section academics-section" id="education">
+  <h2 data-aos="fade-up">My Educational Background</h2>
+  <p class="section-sub" data-aos="fade-up">The foundation of my passion for technology and
+    innovation</p>
+
+  <div class="edu-grid">
+    <div class="edu-card" data-aos="fade-up">
+      <h3><i class="bi bi-mortarboard-fill"></i> University of Southern California</h3>
+      <p>M.S. in Computer Science (Jan 2024 – Dec 2025)</p>
+      <p>GPA: 3.67 / 4.00</p>
+      <p><strong>Relevant Coursework:</strong> Analysis of Algorithms, Machine Learning,
+        Cryptography, Web Technologies, Information Retrieval, Database Systems</p>
+    </div>
+
+    <div class="edu-card" data-aos="fade-up" data-aos-delay="100">
+      <h3>Vidyavardhaka College of Engineering - VTU</h3>
+      <p>B.E. in Computer Science & Engineering (Aug 2019 – May 2023)</p>
+      <p>CGPA: 9.3 / 10.0</p>
+      <p><strong>Relevant Coursework:</strong> Data Structures, Operating Systems, Computer
+        Networks, DBMS, Software Engineering</p>
+    </div>
+  </div>
+</section>
+
+<!-- Work Experience -->
+<section class="section" id="experience">
+  <h2 data-aos="fade-up">Work Experience</h2>
+  <p class="section-sub" data-aos="fade-up">Hands-on roles where I delivered impactful research and full-stack solutions</p>
+
+  <div class="edu-grid">
+
+    <!-- USC GRA -->
+    <div class="edu-card" data-aos="fade-up">
+      <h3><i class="bi bi-mortarboard-fill"></i> Graduate Research Assistant</h3>
+      <p><strong>University of Southern California</strong> — Los Angeles, CA<br><em>May 2024 – Present</em></p>
+      <ul>
+        <li>Conducting deep learning research under Prof. Anita Penkova on diabetic retinopathy detection.</li>
+        <li>Achieved 96% accuracy on the OCTA dataset in blood vessel segmentation using U-Net.</li>
+        <li>Built and trained ResNet50 model for classification of stages of DR.</li>
+      </ul>
+      <p><strong>Tech Stack:</strong> Python, PyTorch, Jupyter, TensorFlow, TensorBoard, Pandas, Numpy, OpenCV, U-Net, ResNet50</p>
+    </div>
+
+    <!-- CoachEd Internship -->
+    <div class="edu-card" data-aos="fade-up" data-aos-delay="100">
+      <h3><i class="bi bi-briefcase-fill"></i> Front-End Web Developer Intern</h3>
+      <p><strong>CoachEd</strong> — Bengaluru, India<br><em>Sept 2022 – Oct 2022</em></p>
+      <ul>
+        <li>Developed a responsive dashboard with Bluetooth, GPS, music, and radio controls.</li>
+        <li>Implemented real-time clock and brightness control features to reduce driver distraction.</li>
+        <li>Collaborated in Agile sprints with product and QA teams, using modular, maintainable code.</li>
+      </ul>
+      <p><strong>Tech Stack:</strong> HTML5, CSS, JavaScript, Git, RWD, Media Queries</p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Projects -->
+<section id="projects" class="section bg-white">
+  <h2 data-aos="fade-up">My Projects</h2>
+  <p class="section-sub" data-aos="fade-up">Where code meets creativity and impact</p>
+  <div class="cta-center" data-aos="fade-up" data-aos-delay="300">
+    <a href="projects.html" class="btn-view-all">View All Projects →</a>
+  </div>
+  <div class="project-grid">
+    <div class="project-card" data-aos="zoom-in">
+      <h4><i class="bi bi-cloud-sun"></i> Weather Forecast App</h4>
+      <p>Flask + Angular app with real-time APIs, GCP deployed</p>
+      <a href="https://github.com/Swathi-KR/Weather_app_deployed_on_GCP" target="_blank">GitHub
+        →</a>
+    </div>
+    <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+      <h4><i class="bi bi-phone"></i> iOS Weather App</h4>
+      <p>Swift app with Apple HIG design + animations</p>
+      <a href="https://drive.google.com/file/d/1AxT9mk6VQmhGXtEim6ZX_Lszz2CLoraI/view"
+         target="_blank">Demo →</a>
+    </div>
+    <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+      <h4><i class="bi bi-laptop"></i> Infotainment System</h4>
+      <p>React-based dashboard with Maps, Radio, Bluetooth</p>
+      <a href="https://github.com/Swathi-KR/In-vehicle-Infotainment-System-Website" target="_blank">GitHub
+        →</a>
+    </div>
+  </div>
+</section>
+
+<!-- Skills -->
+<section id="skills" class="section bg-light">
+  <h2 data-aos="fade-up">Skills</h2>
+  <p class="section-sub" data-aos="fade-up">Here’s a snapshot of the tech stack I work with</p>
+  <div class="project-grid">
+    <div class="project-card" data-aos="fade-up">
+      <h4><i class="bi bi-code-slash"></i> Languages</h4>
+      <p>C, C++, Java, Python, Kotlin, JavaScript, TypeScript</p>
+    </div>
+    <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+      <h4><i class="bi bi-window"></i> Frontend</h4>
+      <p>HTML5, CSS3, Bootstrap, AngularJS, ReactJS, AJAX</p>
+    </div>
+    <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+      <h4><i class="bi bi-hdd-network"></i> Backend</h4>
+      <p>Flask, Node.js, Express.js, Spring Boot</p>
+    </div>
+    <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+      <h4><i class="bi bi-phone"></i> Mobile</h4>
+      <p>Swift, Java (Android), Kotlin, SwiftUI, Android Studio</p>
+    </div>
+    <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+      <h4><i class="bi bi-cloud"></i> Database & Cloud</h4>
+      <p>MySQL, MongoDB, PostgreSQL, AWS, GCP, OCI, Docker, Kubernetes</p>
+    </div>
+    <div class="project-card" data-aos="fade-up" data-aos-delay="500">
+      <h4><i class="bi bi-robot"></i> AI/ML</h4>
+      <p>TensorFlow, PyTorch, OpenCV, Scikit-learn, Keras, U-Net, ResNet50</p>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="section bg-lightblue">
+  <h2 data-aos="fade-up">Contact Me</h2>
+  <p class="section-sub" data-aos="fade-up">Let's build something great together 🚀</p>
+  <div class="contact-box" data-aos="fade-up">
+    <p><i class="bi bi-envelope"></i> kolarraj@usc.edu</p>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/swathi-meghana/" target="_blank"><i
+          class="bi bi-linkedin"></i></a>
+      <a href="https://github.com/Swathi-KR" target="_blank"><i class="bi bi-github"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <p>© 2025 Swathi Meghana. Built with 💻 & ☕</p>
+</footer>
+
+<!-- Scripts -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
+</body>
+
+
+<script>
+  const hamburger = document.getElementById("hamburger");
+  const navLinks = document.getElementById("nav-links");
+
+  hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+  });
+</script>
+
+
 </html>
