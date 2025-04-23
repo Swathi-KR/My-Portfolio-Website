@@ -1,50 +1,66 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>About Me</title>
-        <link rel="stylesheet" href="qualification.css">
-    </head>
-    <body>
-        <div class="nav">
-            <h2><span>S</span>WATHI <span>M</span>EGHANA <span>K</span> <span>R</span></h2>
-            <a href="index.html"><h2>HOME</h2></a>
-        </div>
-        <div class="maincontainer">
-            <div class="MarksCardHolder">
-                <div class="bg1">
-                    <div class="cirtcontainer">
-                        <h1>ACADEMIC<span style="color: rgb(157, 112, 247);">S</span></h1>
-                        <div class="markscardInfo">
-                            <h2>University of Southern California,<span>Los Angeles</span></h2>
-                            <div class="cgpa">
-                                <h3>MS Computer Science</h3>
-                                <h3>3.67/4.00 GPA</h3>
-                            </div>
-                        </div>
-                        <div class="markscardInfo">
-                            <h2>Vidyavardhaka College of Engineering,<span>Mysore</span></h2>
-                            <div class="cgpa">
-                                <h3>B.E Computer Science & Engineering</h3>
-                                <h3>9.3/10.0 CGPA</h3>
-                            </div>
-                        </div>
-                        <div class="markscardInfo">
-                            <h2>BASE PU College,<span>Mysore</span></h2>
-                            <div class="cgpa">
-                                <h3>12th BOARD</h3>
-                                <h3>91.5%</h3>
-                            </div>
-                        </div>
-                        <div class="markscardInfo">
-                            <h2>Acharya Vidya Kula,<span>Mysore</span></h2>
-                            <div class="cgpa">
-                                <h3>10th BOARD</h3>
-                                <h3>85%</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Academics | Swathi Meghana</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<header class="navbar">
+  <div class="nav-left"><a href="index.html">Home</a></div>
+  <nav class="nav-right">
+    <a href="projects.html">Projects</a>
+    <a href="assets/Resume.pdf" class="resume-btn" download>Resume</a>
+  </nav>
+</header>
+
+<!-- Academic Section -->
+<section class="section academics-section">
+  <h2 data-aos="fade-up">My Educational Background</h2>
+  <p class="section-sub" data-aos="fade-up">The foundation of my passion for technology and innovation</p>
+
+  <div class="edu-grid">
+    <div class="edu-card" data-aos="fade-up">
+      <h3><i class="bi bi-mortarboard-fill"></i> University of Southern California</h3>
+      <p>M.S. in Computer Science (Aug 2023 – Dec 2025)</p>
+      <p>GPA: 3.67 / 4.00</p>
+      <p><strong>Relevant Coursework:</strong> Analysis of Algorithms, Machine Learning, Cryptography, Web Technologies, Information Retrieval, Database Systems</p>
+    </div>
+
+    <div class="edu-card" data-aos="fade-up" data-aos-delay="100">
+      <h3>Vidyavardhaka College of Engineering</h3>
+      <p>B.E. in Computer Science & Engineering (Aug 2018 – Jul 2022)</p>
+      <p>CGPA: 9.3 / 10.0</p>
+      <p><strong>Relevant Coursework:</strong> Data Structures, Operating Systems, Computer Networks, DBMS, Software Engineering</p>
+    </div>
+
+    <div class="edu-card" data-aos="fade-up" data-aos-delay="200">
+      <h3>BASE PU College</h3>
+      <p>12th Board (2016 – 2018) – 91.5%</p>
+    </div>
+
+    <div class="edu-card" data-aos="fade-up" data-aos-delay="300">
+      <h3>Acharya Vidya Kula</h3>
+      <p>10th Board (2015 – 2016) – 85%</p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <p>© 2025 Swathi Meghana. All rights reserved.</p>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
+</body>
 </html>
+
+
+
