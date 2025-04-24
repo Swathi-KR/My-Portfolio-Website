@@ -168,7 +168,7 @@ body {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   }
 
-i{
+.hero-anchor{
     font-size: 4vh;
     color: #ef476f;
   }
